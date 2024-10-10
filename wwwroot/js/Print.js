@@ -17,3 +17,13 @@
     printWindow.document.close();
     printWindow.print();
 }
+
+function SaveScreenshot(elementId) {
+    var element = document.getElementById(elementId);
+    html2canvas(element).then(function (canvas) {
+        var link = document.createElement('a');
+        link.download = 'screenshot.png';
+        link.href = canvas.toDataURL();
+        link.click();
+    });
+}

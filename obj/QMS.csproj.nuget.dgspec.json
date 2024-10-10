@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LOQ\\Desktop\\Git แท้\\QueueUser\\QMS.csproj": {}
+    "C:\\Users\\LOQ\\Desktop\\onlineandcounter\\QueueUser\\QMS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LOQ\\Desktop\\Git แท้\\QueueUser\\QMS.csproj": {
+    "C:\\Users\\LOQ\\Desktop\\onlineandcounter\\QueueUser\\QMS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LOQ\\Desktop\\Git แท้\\QueueUser\\QMS.csproj",
+        "projectUniqueName": "C:\\Users\\LOQ\\Desktop\\onlineandcounter\\QueueUser\\QMS.csproj",
         "projectName": "QMS",
-        "projectPath": "C:\\Users\\LOQ\\Desktop\\Git แท้\\QueueUser\\QMS.csproj",
+        "projectPath": "C:\\Users\\LOQ\\Desktop\\onlineandcounter\\QueueUser\\QMS.csproj",
         "packagesPath": "C:\\Users\\LOQ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LOQ\\Desktop\\Git แท้\\QueueUser\\obj\\",
+        "outputPath": "C:\\Users\\LOQ\\Desktop\\onlineandcounter\\QueueUser\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LOQ\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -91,6 +91,10 @@
             "System.Net.Http.Json": {
               "target": "Package",
               "version": "[7.0.1, )"
+            },
+            "bootstrap": {
+              "target": "Package",
+              "version": "[5.3.3, )"
             }
           },
           "imports": [

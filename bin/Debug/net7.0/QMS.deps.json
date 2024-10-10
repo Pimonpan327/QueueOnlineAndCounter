@@ -18,7 +18,8 @@
           "Microsoft.EntityFrameworkCore.Tools": "7.0.20",
           "Newtonsoft.Json": "13.0.3",
           "Radzen.Blazor": "5.0.4",
-          "System.Net.Http.Json": "7.0.1"
+          "System.Net.Http.Json": "7.0.1",
+          "bootstrap": "5.3.3"
         },
         "runtime": {
           "QMS.dll": {}
@@ -69,6 +70,7 @@
           }
         }
       },
+      "bootstrap/5.3.3": {},
       "DartSassBuilder/1.0.0": {},
       "Humanizer.Core/2.14.1": {
         "runtime": {
@@ -897,6 +899,13 @@
       "sha512": "sha512-6nZuJwA7zNIKx83IsObiHXZb09ponJOpCClU3en+hI8ZFvrOKXeOw+H7TegQZQrvdR1n9fkrVkEBQZg8vx6ZTw==",
       "path": "blazored.localstorage/4.5.0",
       "hashPath": "blazored.localstorage.4.5.0.nupkg.sha512"
+    },
+    "bootstrap/5.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iQohLXwneNPDyW4x24mKQ90qGwT5WTtNl3KybL0koTluJPjKYxFCU/NTLHsJiWR2n7VmnwcpAgr8TR42KNmPOg==",
+      "path": "bootstrap/5.3.3",
+      "hashPath": "bootstrap.5.3.3.nupkg.sha512"
     },
     "DartSassBuilder/1.0.0": {
       "type": "package",

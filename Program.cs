@@ -1,6 +1,7 @@
 using Blazored.LocalStorage;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;
+using Microsoft.AspNetCore.Components.Server.Circuits;
 using Microsoft.EntityFrameworkCore;
 using QMS.Data;
 using QMS.Services;
@@ -22,6 +23,8 @@ builder.Services.AddHttpClient<QueueCounterService>(client =>
 {
     client.BaseAddress = new Uri("https://localhost:44328/"); // เปลี่ยนเป็น URL ของ API ของคุณ
 });
+
+builder.Services.AddScoped<CircuitHandler, CustomCircuitHandler>();
 
 
 var app = builder.Build();

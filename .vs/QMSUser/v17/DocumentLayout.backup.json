@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LOQ\\Desktop\\Git \u0E41\u0E17\u0E49\\QueueUser\\",
+  "WorkspaceRootPath": "C:\\Users\\LOQ\\Desktop\\onlineandcounter\\QueueUser\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE27CAA5-165F-4E38-AE43-046442C2C853}|QMS.csproj|c:\\users\\loq\\desktop\\git \u0E41\u0E17\u0E49\\queueuser\\pages\\booking\\cancelbooking.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CE27CAA5-165F-4E38-AE43-046442C2C853}|QMS.csproj|c:\\users\\loq\\desktop\\onlineandcounter\\queueuser\\pages\\booking\\cancelbooking.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE27CAA5-165F-4E38-AE43-046442C2C853}|QMS.csproj|solutionrelative:pages\\booking\\cancelbooking.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE27CAA5-165F-4E38-AE43-046442C2C853}|QMS.csproj|c:\\users\\loq\\desktop\\onlineandcounter\\queueuser\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE27CAA5-165F-4E38-AE43-046442C2C853}|QMS.csproj|solutionrelative:pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE27CAA5-165F-4E38-AE43-046442C2C853}|QMS.csproj|c:\\users\\loq\\desktop\\onlineandcounter\\queueuser\\pages\\profile\\userprofile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE27CAA5-165F-4E38-AE43-046442C2C853}|QMS.csproj|solutionrelative:pages\\profile\\userprofile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,13 +44,39 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CancelBooking.razor",
-              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\Git \u0E41\u0E17\u0E49\\QueueUser\\Pages\\Booking\\CancelBooking.razor",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\onlineandcounter\\QueueUser\\Pages\\Booking\\CancelBooking.razor",
               "RelativeDocumentMoniker": "Pages\\Booking\\CancelBooking.razor",
-              "ToolTip": "C:\\Users\\LOQ\\Desktop\\Git \u0E41\u0E17\u0E49\\QueueUser\\Pages\\Booking\\CancelBooking.razor",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\onlineandcounter\\QueueUser\\Pages\\Booking\\CancelBooking.razor",
               "RelativeToolTip": "Pages\\Booking\\CancelBooking.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAGIAAAByAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T03:46:32.46Z",
+              "WhenOpened": "2024-10-10T08:30:54.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\onlineandcounter\\QueueUser\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\onlineandcounter\\QueueUser\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "Pages\\_Host.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T08:14:07.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserProfile.razor",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\onlineandcounter\\QueueUser\\Pages\\Profile\\UserProfile.razor",
+              "RelativeDocumentMoniker": "Pages\\Profile\\UserProfile.razor",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\onlineandcounter\\QueueUser\\Pages\\Profile\\UserProfile.razor",
+              "RelativeToolTip": "Pages\\Profile\\UserProfile.razor",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T07:55:10.827Z",
               "EditorCaption": ""
             }
           ]

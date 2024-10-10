@@ -8,9 +8,15 @@
 @inject IConfiguration Configuration
 @using System.Text.Json;
 
-
-
 <h3>ข้อมูลส่วนตัวของคุณ</h3>
+
+<style>
+    .card i {
+        color: #007bff; /* เปลี่ยนสีของไอคอน */
+        display: block; /* แสดงเป็นบล็อก */
+        text-align: center; /* จัดตำแหน่งกลาง */
+    }
+</style>
 
 @if (user == null)
 {
@@ -18,13 +24,15 @@
 }
 else
 {
-    <div>
-        <p><strong>รหัสผู้ใช้:</strong> @user.user_id</p>
-        <p><strong>หมายเลขบัตรประชาชน:</strong> @user.citizen_id_number</p>
-        <p><strong>ชื่อ:</strong> @user.firstname @user.lastname</p>
-        
-        <p><strong>เบอร์โทรศัพท์:</strong> @user.phone_number</p>
-        <p><strong>อีเมล:</strong> @user.user_email</p>
+    <div class="card" style="width: 18rem;">
+        <i class="fas fa-user-circle" style="font-size: 100px; margin: 20px;"></i>
+        <div class="card-body">
+            <p class="card-text"><strong>รหัสผู้ใช้:</strong> @user.user_id </p>
+            <p class="card-text"><strong>หมายเลขบัตรประชาชน:</strong> @user.citizen_id_number</p>
+            <p class="card-text"><strong>ชื่อ:</strong> @user.firstname @user.lastname</p>
+            <p class="card-text"><strong>เบอร์โทรศัพท์:</strong> @user.phone_number</p>
+            <p class="card-text"><strong>อีเมล:</strong> @user.user_email</p>
+        </div>
     </div>
 }
 
